@@ -20,3 +20,8 @@ docker run -p 8080:8080 qainsights/jpetstore
 ```
 docker-compose up -d
 ```
+
+## 🙏 Thanks
+
+[https://github.com/mybatis/jpetstore-6](https://github.com/mybatis/jpetstore-6)
+
