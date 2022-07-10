@@ -1,10 +1,10 @@
-FROM openjdk:8-jre-alpine
+FROM alpine:latest
 
 LABEL maintainer="NaveenKumar Namachivayam" \
       website="https://qainsights.com"
 
 # install prerequisites
-RUN  apk --no-cache add openjdk8-jre git
+RUN  apk --no-cache add openjdk8 git
 
 # clone repo and pack
 RUN \ 
