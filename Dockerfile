@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM openjdk:8-jre-alpine
 
 LABEL maintainer="NaveenKumar Namachivayam" \
       website="https://qainsights.com"
