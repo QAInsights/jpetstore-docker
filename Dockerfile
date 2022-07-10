@@ -4,7 +4,7 @@ LABEL maintainer="NaveenKumar Namachivayam" \
       website="https://qainsights.com"
 
 # install prerequisites
-RUN  apk --no-cache add openjdk8 git
+RUN  apk --no-cache add openjdk11 git
 
 # clone repo and pack
 RUN \ 
